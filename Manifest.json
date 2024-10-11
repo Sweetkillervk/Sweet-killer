@@ -1,7 +1,7 @@
 {
   "name": "Smart Kyp",
   "short_name": "SmartKyp",
-  "start_url": "/",
+  "start_url": "https://smartkyp.blogspot.com/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0000ff",
