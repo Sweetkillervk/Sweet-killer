@@ -3,7 +3,7 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open('smartkyp-cache-v1').then((cache) => {
       return cache.addAll([
-        '/', // Start page
+        'https://smartkyp.blogspot.com/?m=1#', // Start page
         '/index.html', // Main page (replace with actual path if different)
         'https://smartkyp.blogspot.com/', // Home page
         'https://smartkyp.blogspot.com/styles.css', // Example stylesheet (replace with actual path)
